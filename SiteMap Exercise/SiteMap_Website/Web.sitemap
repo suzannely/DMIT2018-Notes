@@ -3,27 +3,30 @@
   <siteMapNode title="Root" description="This is the root of the site map (do not display)" url="~/">
     <siteMapNode title="Home" description="Home" url="~/default.aspx" />
     <siteMapNode title="Products" description="Our products"
-        url="~/Products.aspx">
+        url="~/Products/Default.aspx">
       <siteMapNode title="Hardware" description="Hardware choices"
-          url="~/Hardware.aspx" />
+          url="~/Products/Hardware.aspx" />
       <siteMapNode title="Software" description="Software choices"
-          url="~/Software.aspx" />
+          url="~/Products/Software.aspx" />
     </siteMapNode>
     <siteMapNode title="Services" description="Services we offer"
-        url="~/Services.aspx">
+        url="~/Services/Default.aspx">
       <siteMapNode title="Training" description="Training classes"
-          url="~/Training.aspx" />
+          url="~/Services/Training.aspx" />
       <siteMapNode title="Consulting" description="Consulting services"
-          url="~/Consulting.aspx" />
+          url="~/Services/Consulting.aspx" />
       <siteMapNode title="Member Services" description="Services offered to members"
-       url="~/MemberServices/Default.aspx">
-        <siteMapNode title="Downloads" description="Product Downloads"
-            url="~/MemberServices/ProductDownloads.aspx" />
-        <siteMapNode title="Registered Products" description="Registered Products"
-            url="~/MemberServices/RegisteredProducts.aspx" />
+       url="~/Services/MemberServices/Default.aspx">
+          <siteMapNode title="Downloads" description="Product Downloads"
+              url="~/Services/MemberServices/ProductDownloads.aspx" />
+          <siteMapNode title="Registered Products" description="Registered Products"
+              url="~/Services/MemberServices/RegisteredProducts.aspx" />
       </siteMapNode>
       <siteMapNode title="Support" description="Supports plans"
-          url="~/Support.aspx" />
+          url="~/Services/Support/">
+          <siteMapNode title="Support Tickets" description="Supports plans"
+             url="~/Services/Support/SupportTickets.aspx" />
+    </siteMapNode>
     </siteMapNode>
     <siteMapNode title="About" description="About us" url="~/About.aspx" />
   </siteMapNode>
